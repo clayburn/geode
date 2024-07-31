@@ -48,7 +48,7 @@ def isJenkins = System.getenv('JENKINS_URL') != null
 def isCI = isGithubActions || isJenkins
 
 develocity {
-  server = "https://ge.apache.org"
+  server = "https://ge.solutions-team.gradle.com"
   projectId = "geode"
 
   buildScan {
